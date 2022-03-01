@@ -1,0 +1,13 @@
+SKU 	CV7891-428
+Marca 	Nike
+Color 	Bicolor
+Disciplina 	Fútbol
+Modelo 	Cuello redondo
+Club 	Barcelona
+Género 	Hombre
+Calce 	Regular Fit
+Material 	Poliéster
+Temporada 	Atemporal
+Tipo de producto 	Camisetas de fútbol
+Origen 	Importado
+Es para arquero 	No

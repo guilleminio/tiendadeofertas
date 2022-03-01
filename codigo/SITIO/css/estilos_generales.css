@@ -1,0 +1,334 @@
+/*===========================
+PALETA DE COLORES: 
+Dark primary color #f57c00
+Light primary color #ffe0b2
+Primary color #ff9800
+Text / Icons #212121
+Accent color #ff5252
+Secondary text #757575
+=============================*/
+body{
+	    color: #858b8e;
+}
+.fondo{
+	background: #b26a00;
+}
+
+.text-end button{ color: white; }
+
+.onlinecommerce{
+	background-image: url('../imagenes/presentacion.jpg');
+	background-size: contain;
+}
+
+.titulo{
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+}
+
+.botonShop{
+	background: #ff9100;
+	color: white;
+	border: none;
+	padding: 2%;
+	font-weight: 1%;
+}
+
+.botonShop:hover{
+	background: #ffee33;
+}
+
+.tarjeta{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	background-color: #ffe0b2;
+}
+.escalarImagen{
+	transition: transform .5s;
+}
+.escalarImagen:hover{
+	transform: scale(1.05);
+}
+
+.contenedor{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-top: 4%;
+}
+
+.home{
+	font-weight: 2%;
+	color: white;
+	font-size: 18px;
+	background-color: #ff5252;
+	width: 100px;
+	border: none;
+}
+.home:hover{
+	background-color: #ff9800;
+	color: white;
+}
+
+.presentacion{
+	color: white;
+}
+
+.presentacion a{
+	font-weight: bold;
+	color: white;
+	font-size: 28px;
+	background-color: #ff5252;
+	padding: 2%;
+}
+.presentacion a:hover{
+	background-color: #ff9800;
+	color: white;
+}
+
+/*---------------------------------------------
+	DETALLE PRODUCTO
+-----------------------------------------------*/
+
+.detalleProducto{
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-flow: column wrap;
+	/*border: 1px solid #f57c00;*/
+	align-content: flex-start;
+	padding: 2%;
+}
+
+.detalleProducto img{
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.botonComprar{
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-end;
+	align-content: flex-end;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.contenedorCompra{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+.contenedorPrecios{
+	font-size: 20px;
+	margin-top: 3%;
+	color: #ff5252;
+	font-weight: bold;
+}
+
+/*----------------------------------------------
+	CARRO DE COMPRAS
+------------------------------------------------*/
+.itemsCarro{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 100%;
+}
+
+.tablaItems{
+	border: 1px solid #858b8e;
+	color: #858b8e;
+	vertical-align: baseline;
+}
+
+.tablaItems th, .tablaItems td{
+	text-align: center;
+}
+
+.infoCarro{
+	width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: flex-end;
+	color: black;
+}
+.imagenitemcarro {
+    width: 150px;
+    height: 150px;
+}
+
+/* Resize images */
+.imagenitemcarro img {
+    width: 100%;
+    height: auto;
+}
+
+.contenedorBotones{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-top: 5%;
+}
+
+
+/*-----------------------------------------------
+	PEDIDO FINALIZADO - FIN REGISTRO
+-------------------------------------------------*/
+.contenedorMedio{
+			width: 100%;
+			display: flex;
+			flex-flow: column wrap;
+			align-items: center;
+		}
+
+.tituloCentrado{
+	margin-top: 1%;
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+.contenedorImagen{
+	margin-top: 2%;
+}
+
+/*----------------------------------------------
+	INICIAR SESIÓN
+------------------------------------------------*/
+.contenedorFormulario{
+	width: 45%;
+	padding: 2%;
+	border: 1px solid #ff9800;
+}
+
+.contenedorFormulario div{
+	padding-top: 1.0% ;
+}
+
+.contenedorFormulario div input{
+	width: 100%;
+}
+
+.contenedorFormulario h1{text-align: center;}
+
+.seccionCaptcha{
+	padding-bottom: 2.0%;
+	padding-top: 2.0%;
+}
+
+.seccionCaptcha div {
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
+
+.seccionCaptcha img {
+	width: 100%;
+}
+
+.divBoton button{
+	width: 100%;
+}
+
+#btnRegistrar{
+	background-color: #ff9800;
+	border: none;
+}
+
+#btnRegistrar:hover{
+	background-color: #ffe0b2;
+}
+
+.terminos{
+	width: 100%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+/*----------------------------------------------
+	REGISTRO
+------------------------------------------------*/
+#cabeceraRegistro{
+	background-color: #4dd0e1;
+}
+
+#cabeceraRegistro a {
+	color: white;
+}
+
+#formularioRegistro{
+	display: flex;
+	flex-flow: column wrap;
+    max-width: 60%;
+    margin-top: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    padding-right: 4.5%;
+    align-items: center;
+    height: auto;
+}
+
+#formularioRegistro h2{
+    padding-bottom: 10px;
+    margin: 5px 20px;
+}
+
+
+
+#formularioRegistro .form-group{
+	margin-bottom: 20px;
+    margin-left:20px;
+    text-align: left;
+    width: 100%;
+}
+
+#formularioRegistro .form-control{
+    padding: 12px 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.background.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*----------------------------------------------
+	CUENTA
+------------------------------------------------*/
+.contenedorCuenta{
+	display: flex;
+	flex-flow: column wrap;
+	margin-top: 2%;
+}
+
+.botonesCentro{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding: 2%;
+	margin: 2%;
+	width: 100%;
+}
+	.botonesCentro button{
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+
+/*----------------------------------------------
+	CUENTA
+------------------------------------------------*/
+.pie{
+	margin-top: 4% ;
+	color: white;
+}
+
+.primeraFila{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}

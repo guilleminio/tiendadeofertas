@@ -1,0 +1,14 @@
+SKU 	CW5862-019
+Marca 	Nike
+Color 	Gris
+Cierres bolsillos delanteros 	Yes
+Impermeable 	No
+Bolsillos 	2
+Disciplina 	Fútbol
+Calce 	Slim Fit
+Club 	-
+Género 	Hombre
+Material 	Poliéster
+Temporada 	Atemporal
+Tipo de producto 	Pantalones
+Origen 	Importado

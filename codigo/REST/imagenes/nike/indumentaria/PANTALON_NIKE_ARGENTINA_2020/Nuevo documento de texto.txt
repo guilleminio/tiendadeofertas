@@ -1,0 +1,14 @@
+SKU 	CD5066-010
+Marca 	Nike
+Color 	Negro
+Cierres bolsillos delanteros 	No
+Impermeable 	No
+Bolsillos 	3
+Disciplina 	Básquet
+Calce 	Slim Fit
+Club 	Argentina
+Género 	Mujer
+Material 	Algodón
+Temporada 	Atemporal
+Tipo de producto 	Pantalones
+Origen 	Importado
